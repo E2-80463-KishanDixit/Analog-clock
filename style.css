@@ -1,0 +1,80 @@
+#clockcontainar{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    /* border: 2px solid orangered; */
+
+}
+
+
+#hour, #minute, #seconds{
+    position: absolute;
+    border-radius: 15px;
+    background: black;
+    transform-origin: bottom;
+}
+/* .neadle{
+    width: 3%;
+    height: 30%;
+    background: black;
+    margin: 20px;
+}  */
+
+#circle{
+    position: absolute;
+    background: black;
+    height: 8%;
+    width:8%;
+    border-radius: 100%;
+    top: 46%;
+    left: 46.4%;
+    opacity: 1;
+    
+}
+
+ #hour{
+    width: 1.6%;
+    height: 25%;
+    top: 25%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#minute{
+    width: 1.5%;
+    height: 28.5%;
+    top: 22%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+    
+#seconds{ width: 0.9%;
+    height: 32.5%;
+    top: 18%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#dial-change{
+    color: solid black;
+    background-color: orange;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    height: 30px;
+    width: 28%;
+    margin: 93% 0% 0% 36.5% ;
+}
+#dial-change:hover{
+    background-color: rgb(238, 180, 73);
+    font-size: 15px;
+    cursor: pointer;
+    
+    
+}
+
+
+    
